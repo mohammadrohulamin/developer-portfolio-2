@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
 }
@@ -28,7 +28,8 @@ background-image: linear-gradient(tomato, orange);
     font-weight: 900;
 }
 .top-section{
-
+    background-image: url(images/top-banner-png);
+    background-repeat: no-repeat;
 }
 .resume-button{
     text-decoration: none;
@@ -39,5 +40,7 @@ background-image: linear-gradient(orange, tomato);
     font-weight: 900;
 }
 .center-section{
-    
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
